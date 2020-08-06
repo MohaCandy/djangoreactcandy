@@ -1,0 +1,13 @@
+1- heroku buildpacks:set heroku/python
+2- heroku buildpacks:add --index 1 heroku/nodejs
+3- inside package.jason set the engins as:
+    "engines": {
+    "node": "12.16.3",
+    "npm": "6.13.7"
+  },
+4- create the procfile
+5- set the requirements file
+6- set the runtime file for the python version
+7- set the setting.py for the tatic file
+8- set the wsgi file for the whitenoise
+9- continue the heroku setup
